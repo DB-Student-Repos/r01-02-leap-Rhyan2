@@ -19,7 +19,7 @@ fn test_year_divisible_by_4_not_divisible_by_100_leap_year() {
 }
 
 #[test]
-#[ignore]
+
 fn test_year_divisible_by_4_and_5_is_still_a_leap_year() {
     process_leapyear_case(1960, true);
 }
@@ -31,7 +31,7 @@ fn test_year_divisible_by_100_not_divisible_by_400_common_year() {
 }
 
 #[test]
-#[ignore]
+
 fn test_year_divisible_by_100_but_not_by_3_is_still_not_a_leap_year() {
     process_leapyear_case(1900, false);
 }
